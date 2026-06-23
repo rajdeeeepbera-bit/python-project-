@@ -1,0 +1,14 @@
+a = [{"set","set","set","set"}]
+print(a)
+
+print(type(a)) # list
+
+x = ({"set","set"},)
+print(x)
+
+print(type(x)) # tuple
+
+x = ({"set","set"})
+print(x)
+
+print(type(x)) # set
